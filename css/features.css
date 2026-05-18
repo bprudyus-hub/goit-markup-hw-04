@@ -1,19 +1,19 @@
-.strategy   {
+.features {
 width: 100%;
 }
-.strategy-page{
+.features-page{
     padding: 120px 0;
 }
 
-.strategy-list{
+.features-list{
 display: flex;
 gap: 24px; 
 
 }
-.strategy-item{
+.features-item{
 width: calc((100% - 3 * 24px) / 4);
 }
-.icon-strategy{
+.icon-features{
 display: flex;
 align-items: center;
 justify-content: center;
@@ -25,7 +25,7 @@ padding: 24px 100px 24px 100px;
 
 }
 
-.strategy-title{
+.features-title{
 font-family: "Roboto";
 font-weight: 500;
 font-size: 20px;
@@ -34,7 +34,7 @@ line-height: 1.2;
 color: #2e2f42;
 margin-bottom: 8px;
 }
-.strategy-text{
+.features-text{
 font-family: "Roboto";
 font-size: 16px;
 line-height: 1.5;
