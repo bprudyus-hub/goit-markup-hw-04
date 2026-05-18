@@ -56,13 +56,33 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 padding: 24px 0;
+transition: color 2s;
 }
-.nav_link:hover{
-color: #404BBF;
-}
+
+
 .nav_link:hover ,
 .nav_link:focus{
 color: #404BBF;
+}
+/* .nav_link:active{
+   color: #404BBF; 
+} */
+
+.nav-active-link{
+color:#404BBF ;
+position: relative;
+}
+
+.nav-active-link::after{
+content: "";
+display: block;
+width: 100%;
+height: 4px;
+border-radius: 4px;
+background-color: #404BBF;
+position: absolute;
+bottom: 2px;
+
 }
 .address_info {
 font-style: normal;
@@ -78,6 +98,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455 ;
+transition: color 0.5s;
 }
 .contacts_link:hover ,
 .contacts_link:focus{

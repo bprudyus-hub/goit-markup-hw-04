@@ -27,8 +27,9 @@ text-align: center;
 border-radius: 0 0 4px 4px;
 padding: 0px 0px 32px;
 width: 264px;
-height: 380px;
+height: 428px;
 flex-basis: calc((100 * 3 ) / 4);
+
 }
 .team-list-social{
 display: flex;
@@ -53,14 +54,15 @@ margin-top: 8px;
 align-items: center;
     justify-content: center;
     fill:#F4F4FD ;
+    transition: background-color 250ms;
     
 }
 .team-icons:hover{
-    background-color: #31D0AA;
+    background-color: #404bbf;
 }
 
 .team-card{
-padding-bottom: 32px;
+padding: 32px 16px;
 }
 
 

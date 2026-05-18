@@ -1,6 +1,6 @@
-prtf.container{
+.prtf.container{
     width: 100%;
-    max-width: 1158px;
+    max-width: 1440px;
 }
 .prtf-page{
 padding: 120px 0 120px 0;
@@ -13,13 +13,14 @@ padding: 120px 0 120px 0;
     
 }
 
-.portfolio_link{
-    /* flex-basis: calc((100% - 96px) / 6); */
+ .prtf-over{
     position: relative;
     overflow: hidden;
+ }
+.prtf-over:hover .overlay {
+  transform: translateY(0);
+   
 }
-.portfolio_link:hover .overlay {
-  transform: translateX(0);
 }
 .prtf-card{
     padding: 32px 16px;

@@ -40,7 +40,7 @@ a {
 
 }
 
-.visually-hidden {
+.sr-only{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -53,7 +53,7 @@ a {
     overflow: hidden;
 }
 
-/* .icon { */
+    .icon {
     display: inline-block;
     width: 1em;
     height: 1em;
