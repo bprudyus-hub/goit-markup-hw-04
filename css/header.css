@@ -1,0 +1,85 @@
+.page-header {
+border-bottom: 1px solid #e7e9fc;
+
+    
+}
+.header{
+display: flex;
+align-items: center;
+height: 72px;
+width: 100%;
+width: 1158px;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+.logo{
+font-family: "Raleway" , sans-serif;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+color: #4D5AE5;
+line-height: 1.17;
+letter-spacing: 0.03em;
+margin-right:  76px;
+
+}
+
+.logo_studio{
+font-family: "Raleway" , sans-serif;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+
+.page-nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 332px;
+  
+   
+  
+}
+.nav_list{
+display: flex;
+gap: 40px;
+
+}
+.nav_link{
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+padding: 24px 0;
+}
+.nav_link:hover{
+color: #404BBF;
+}
+.nav_link:hover ,
+.nav_link:focus{
+color: #404BBF;
+}
+.address_info {
+font-style: normal;
+}
+.contacts_list{
+display: flex;
+gap: 40px;
+
+}
+.contacts_link{
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#434455 ;
+}
+.contacts_link:hover ,
+.contacts_link:focus{
+    color: #404BBF;
+}

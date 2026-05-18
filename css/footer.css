@@ -1,0 +1,46 @@
+.ftr{
+background-color: #2E2F42;
+padding: 100px 0;   
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+        height: 112px;
+}
+
+.footer_text{
+font-family: "Roboto";
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+height: 72px;
+}
+.logo_ftr{
+font-family: "Raleway" , sans-serif;
+font-size: 18px;
+font-weight: 700;
+font-style: bold;
+text-transform: uppercase;
+color: #4D5AE5;
+line-height: 1.17;
+letter-spacing: 0.03em;
+display: flex;
+display: inline-block;
+margin-bottom: 16px;
+margin-right: ;
+}
+.ftr_logo_studio{
+    font-family: "Raleway" , sans-serif;
+    color: #f4f4fd;
+}
+.footer-title{
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
