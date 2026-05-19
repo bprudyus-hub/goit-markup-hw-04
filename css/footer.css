@@ -1,14 +1,24 @@
 .ftr{
 background-color: #2E2F42;
-padding: 100px 0;   
-}
-.footer{
-    display: flex;
-    align-items: center;
+padding: 100px 0;
+ display: flex;   
+  align-items: center;
     justify-content: center;
-    width: 264px;
-        height: 112px;
 }
+.footer-studio{
+width: 264px;
+height: 112px;
+max-width: 264px;
+margin-left: 151px;
+}
+
+.footer-social{
+    width: 208px;
+height: 80px;
+margin-right: 551px;
+
+}
+
 
 .footer_text{
 font-family: "Roboto";
@@ -18,8 +28,10 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 height: 72px;
 }
-.team-list-social{
+.footer-list-social{
+    display: flex;
     
+  gap: 16px;  
 }
 .logo_ftr{
 font-family: "Raleway" , sans-serif;

@@ -56,7 +56,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 padding: 24px 0;
-transition: color 2s;
+transition: color 250ms;
 }
 
 
@@ -64,9 +64,7 @@ transition: color 2s;
 .nav_link:focus{
 color: #404BBF;
 }
-/* .nav_link:active{
-   color: #404BBF; 
-} */
+
 
 .nav-active-link{
 color:#404BBF ;
@@ -81,7 +79,7 @@ height: 4px;
 border-radius: 4px;
 background-color: #404BBF;
 position: absolute;
-bottom: 2px;
+bottom: 0px;
 
 }
 .address_info {
@@ -98,7 +96,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455 ;
-transition: color 0.5s;
+transition: color 250ms;
 }
 .contacts_link:hover ,
 .contacts_link:focus{

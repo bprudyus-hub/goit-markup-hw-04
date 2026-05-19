@@ -38,7 +38,7 @@ display: flex;
 gap: 24px;
 align-items: center;
 justify-content: center;
-margin-top: 8px;
+/* margin-top: 8px; */
 }
 
 .team-item-social{
@@ -59,10 +59,12 @@ align-items: center;
     transition: background-color 250ms linear;
     
 }
-.team-icons:hover , :focus{
+.team-icons:hover
     background-color: #404bbf;
 }
-
+.team-icons:focus{
+ background-color: #404bbf;   
+}
 .team-card{
 padding: 32px 16px;
 }
