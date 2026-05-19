@@ -12,15 +12,17 @@ padding: 100px 0;
 width: 1158px;
 height: 112px;
 max-width: 1158px;
-    
+margin-left: 141px;
+gap: 120px;
+}  
    
-}
+
 
 .footer-studio{
 width: 264px;
 height: 112px;
 max-width: 264px;
-margin-left: 151px;
+
 }
 
 .footer-social{
