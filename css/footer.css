@@ -1,4 +1,4 @@
-.ftr{
+.footer{
 background-color: #2E2F42;
 padding: 100px 0;
 
@@ -7,7 +7,7 @@ padding: 100px 0;
 .ftr-container{
   display: flex;   
   align-items: flex-start;
-    justify-content: center;  
+    /* justify-content: center;   */
     padding: 0px 15px;
 width: 1158px;
 height: 112px;
@@ -28,7 +28,7 @@ max-width: 264px;
 .footer-social{
     width: 208px;
 height: 80px;
-margin-right: 551px;
+/* margin-right: 551px; */
 
 }
 

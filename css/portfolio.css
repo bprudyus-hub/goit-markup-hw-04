@@ -19,8 +19,7 @@ padding: 120px 0 120px 0;
  }
 
  .portfolio_link{
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    transition: box-shadow 250ms;
+    transition: box-shadow 250ms ease-in-out;
  }
 
 .portfolio_link:hover .overlay {
@@ -77,4 +76,5 @@ transform: translatey(100%);
 
 .portfolio_link:hover {
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
 }
