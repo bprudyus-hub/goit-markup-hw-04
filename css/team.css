@@ -29,6 +29,8 @@ padding: 0px 0px 32px;
 width: 264px;
 height: 428px;
 flex-basis: calc((100 * 3 ) / 4);
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: var(--white);
 
 }
 .team-list-social{
@@ -54,10 +56,10 @@ margin-top: 8px;
 align-items: center;
     justify-content: center;
     fill:#F4F4FD ;
-    transition: background-color 250ms;
+    transition: background-color 250ms linear;
     
 }
-.team-icons:hover{
+.team-icons:hover , :focus{
     background-color: #404bbf;
 }
 
