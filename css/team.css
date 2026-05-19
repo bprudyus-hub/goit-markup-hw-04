@@ -59,9 +59,10 @@ align-items: center;
     transition: background-color 250ms linear;
     
 }
-.team-icons:hover
+.team-icons:hover{
     background-color: #404bbf;
 }
+
 .team-icons:focus{
  background-color: #404bbf;   
 }

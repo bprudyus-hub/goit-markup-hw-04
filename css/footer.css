@@ -30,7 +30,7 @@ height: 72px;
 }
 .footer-list-social{
     display: flex;
-    
+    margin-top: 16px;
   gap: 16px;  
 }
 .logo_ftr{
@@ -59,3 +59,21 @@ margin-right: ;
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
+.footer-icons{
+  background-color: #4D5AE5;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+align-items: center;
+    justify-content: center;
+    fill:#F4F4FD ;
+    transition: background-color 250ms linear;   
+}
+
+
+.footer-icons:hover{
+background-color:#31d0aa ;
+}
+
+#31d0aa.
