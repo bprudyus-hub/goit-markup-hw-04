@@ -55,7 +55,7 @@ justify-content: center;
   display: flex;
 align-items: center;
     justify-content: center;
-    fill:#F4F4FD ;
+    /* fill:#F4F4FD ; */
     transition: background-color 250ms linear;
     
 }

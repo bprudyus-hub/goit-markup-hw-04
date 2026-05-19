@@ -50,10 +50,11 @@ margin-right: auto;
 border-radius: 4px;
 padding: 16px 32px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+transition: background-color 250ms;
 }
 
 .btn_service:hover , 
 .btn_service:focus{
 background-color:#404BBF;
-transition: background-color 250ms;
+
 }

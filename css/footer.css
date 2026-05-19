@@ -1,10 +1,21 @@
 .ftr{
 background-color: #2E2F42;
 padding: 100px 0;
- display: flex;   
-  align-items: center;
-    justify-content: center;
+
 }
+
+.ftr-container{
+  display: flex;   
+  align-items: flex-start;
+    justify-content: center;  
+    padding: 0px 15px;
+width: 1158px;
+height: 112px;
+max-width: 1158px;
+    
+   
+}
+
 .footer-studio{
 width: 264px;
 height: 112px;
@@ -72,8 +83,7 @@ align-items: center;
 }
 
 
-.footer-icons:hover{
+.footer-icons:hover ,
+.footer-icons:focus {
 background-color:#31d0aa ;
 }
-
-#31d0aa.
