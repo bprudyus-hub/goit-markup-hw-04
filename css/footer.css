@@ -9,7 +9,7 @@ padding: 100px 0;
   align-items: flex-start;
 
     padding: 0px 15px;
-    gap: 120px;
+    /* gap: 120px; */
 /* width: 1158px;
 height: 112px;
 max-width: 1158px; */
@@ -25,13 +25,14 @@ width: 264px;
 height: 112px;
 max-width: 264px;
 margin-left: 141px;
+margin-right: 60px;
 
 }
 
 .footer-social{
     width: 208px;
 height: 80px;
-/* margin-right: 551px; */
+margin-left: 60px;
 
 }
 
@@ -61,11 +62,11 @@ letter-spacing: 0.03em;
 display: flex;
 display: inline-block;
 margin-bottom: 16px;
-margin-right: ;
+
 }
 .ftr_logo_studio{
     font-family: "Raleway" , sans-serif;
-    color: #f4f4fd;
+    color: #fff;
 }
 .footer-title{
     font-family: var(--font-family);
