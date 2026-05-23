@@ -1,5 +1,18 @@
 .hero-container{
-    width: 100%;
+    /* width: 100%;
+ max-width: 1440px;
+ margin: 0 auto;
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/people-office.jpg);
+  padding: 188px 0; 
+  background-color: #2e2f42; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+
+}
+
+.hero-page{
+  width: 100%;
  max-width: 1440px;
  margin: 0 auto;
   background-image:linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/people-office.jpg);
@@ -8,16 +21,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-}
-
-.hero-page{
-    /* background-color: #2e2f42; */
-    /* padding: 188px 0;  */
-    /* background-image:linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/people-office.jpg);
-     background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
 
 }
 .hero_title{
